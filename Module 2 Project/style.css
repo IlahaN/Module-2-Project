@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: sans-serif;
+}
+#navbar{
+  width: auto;
+  height: 100px;
+
+}
+
+.logo{
+  width: 190px;
+  height: 100px;
+  margin-left: 5px;
+  border-radius: 20px;
+
+}
+
+.nav{
+  float: right;
+  margin-right: 30px;
+
+}
+
+.nav ul li{
+  display: inline-block;
+  font-size: 18px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: 40px;
+  color: white;
+  font-weight: bold;
+  border-top: 2px solid darkorange;
+  border-bottom: 2px solid darkorange;
+  background-color: #B35B67;
+}
+
+.nav ul li a{
+  list-style: none;
+}
+
+.nav ul li:hover{
+  background-color: #FFC47C;
+  color: white;
+}
+
+h1{
+
+  color: darkorange;
+  margin-top: 55px;
+  margin-bottom: 50px;
+  border: 2px solid darkorange;
+  border-radius: 20px;
+  width: 500px;
+  padding: 10px;
+  margin-left: 380px;
+}
+
+
+#todays-menu{
+  margin-left: 50px;
+}
+.menu-1{
+    border: 2px solid darkorange;
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+    background-color: #8C79B3;
+    width: 380px;
+    float: left;
+    margin-right: 10px;
+
+}
+
+.menu-2{
+    border: 2px solid darkorange;
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+    background-color: #D1755A;
+    width: 380px;
+    float: left;
+    margin-right: 10px;
+}
+
+.menu-3{
+    border: 2px solid darkorange;
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+    background-color: #B35B67;
+    width: 380px;
+    float: left;
+}
+
+h3{
+  color: white;
+  font-size: 24px;
+  border-bottom: 2px solid white;
+  border-top:  2px solid white;
+  width: 120px;
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 250px;
+}
+
+.p{
+  position: relative;
+  padding-top: 20px;
+  width: 350px;
+}
+
+
+#footer{
+  background-color: #ff44;
+}
+
+.copyright{
+  display: flex;
+  float: right;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+@media(min-width: 768px)and (max-width: 991px){
+
+  .menu-1, .p{
+    width: 40%;
+    float: left;
+  }
+  .menu-2, .p{
+    width: 40%;
+    float: left;
+  }
+  .menu-3, .p{
+    width: 90%;
+    float: left;
+  }
+  h1{
+    width: 30%;
+  }
+}
+
+
+@media(max-width: 767px){
+
+  .menu-1, .p{
+    width: 90%;
+    float: left;
+  }
+  .menu-2, .p{
+    width: 90%;
+    float: left;
+  }
+  .menu-3, .p{
+    width: 90%;
+    float: left;
+  }
+  h1{
+    margin-left: 50px;
+    margin-top: 350px;
+    width: 50%;
+
+  }
+  .nav ul li{
+    width: 40%;
+    margin-left: 30px;
+
+  }
+}
